@@ -1,0 +1,29 @@
+.dropdown a {
+  color: #4fd398;
+}
+.dropdownMenu {
+  border: 0;
+  width: 100vw;
+}
+
+.dropdownButton {
+  outline: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.dropdownButton svg {
+  width: 20px;
+  height: 20px;
+  outline: none !important;
+  border: 0 !important;
+  fill: #000;
+}
+
+.dropdownButton:focus svg {
+  fill: #4fd398;
+}
+
+.dropdownButton::after {
+  display: none !important;
+}
